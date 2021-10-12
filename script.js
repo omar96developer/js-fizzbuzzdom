@@ -1,3 +1,14 @@
+const row = document.querySelector ('.row')
+row.innerHTML += ``
+
+for (let i = 1; i < 101; i++){
+  const cont = document.createElement("div");
+}
+
+
+
+
+
 for (let i = 1; i < 101; i++){
   if (i % 15 == 0) {
     console.log("FizzBuzz");
