@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+    color: black;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    max-width: calc((70px + 20px) * 7);
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 80px;
+    margin: 10px;
+    background-color: lightblue;
+}
+
+.box--fizz {
+    background-color: green;
+}
+
+.box--buzz {
+    background-color: yellow;
+}
+
+.box--fizzbuzz {
+    background-color: lightcoral;
+}
