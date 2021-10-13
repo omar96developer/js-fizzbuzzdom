@@ -18,14 +18,8 @@ for (let i = 1; i <= 100; i++) {
     boxText = "buzz";
   }
 
-  const box = document.createElement("div");
-  box.classList.add("box");
-  box.textContent = boxText;
+  const box =`<div class="box ${boxColor}">${boxText}</div>` 
 
-  if (boxColor) {
-    box.classList.add(boxColor);
-  }
-
-  container.append(box);
+  container.innerHTML += box;
 }
 
