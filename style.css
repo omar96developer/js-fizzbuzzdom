@@ -15,8 +15,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
-    max-width: calc((70px + 20px) * 7);
+    width: 100%;
+    max-width: calc((80px + 20px) * 8);
     margin: 0 auto;
 }
 
@@ -24,20 +24,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70px;
+    width: 80px;
     height: 80px;
     margin: 10px;
     background-color: lightblue;
 }
 
-.box--fizz {
+.boxfizz {
     background-color: green;
 }
 
-.box--buzz {
+.boxbuzz {
     background-color: yellow;
 }
 
-.box--fizzbuzz {
+.boxfizzbuzz {
     background-color: lightcoral;
 }
